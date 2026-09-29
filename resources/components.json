@@ -1,0 +1,19 @@
+{
+  "ffmpeg": {
+    "label": "高清合并组件（约 30 MB）",
+    "version": "imageio-ffmpeg 0.6.0 / FFmpeg 7.1",
+    "url": "https://files.pythonhosted.org/packages/2c/c6/fa760e12a2483469e2bf5058c5faff664acf66cadb4df2ad6205b016a73d/imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl",
+    "type": "zip",
+    "entry": "imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+    "sha256": "02fa47c83703c37df6bfe4896aab339013f62bf02c5ebf2dce6da56af04ffc0a",
+    "source": "https://github.com/imageio/imageio-ffmpeg"
+  },
+  "qjs": {
+    "label": "YouTube 支持组件（约 2 MB）",
+    "version": "0.17.0",
+    "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.17.0/qjs-windows-x86_64.exe",
+    "type": "binary",
+    "sha256": "2aeabf0092c3262d6b2609824418f7dd7ed1f1df939f73b2b15645230cac0d77",
+    "source": "https://github.com/quickjs-ng/quickjs"
+  }
+}

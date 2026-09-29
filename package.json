@@ -1,0 +1,30 @@
+{
+  "name": "shiying",
+  "version": "0.1.0",
+  "private": true,
+  "description": "拾影 · 轻量 Windows 视频下载工具",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florianferizaj2-byte/shiying-video-downloader.git"
+  },
+  "homepage": "https://github.com/florianferizaj2-byte/shiying-video-downloader",
+  "bugs": {
+    "url": "https://github.com/florianferizaj2-byte/shiying-video-downloader/issues"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:windows": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1",
+    "test": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/test.ps1",
+    "package": "npm run build:windows && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "lucide-react": "^1.48.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}
